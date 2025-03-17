@@ -1,1 +1,6 @@
 data/**/* filter=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.Rmd filter=lfs diff=lfs merge=lfs -text
+*.RData filter=lfs diff=lfs merge=lfs -text
+*.Rhistory filter=lfs diff=lfs merge=lfs -text
